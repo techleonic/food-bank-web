@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrainGood Food Bank</title>
+    <meta name="description" content="Food Bank Community Project - Providing nutritious groceries to those in need" />
+    <meta name="author" content="GrainGood" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <div class="logo-circle me-2">
+            <span>GG</span>
+          </div>
+          <span class="brand-text">GrainGood</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#volunteer">Volunteer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#donate">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="background-grain"></div>
+        <div class="background-bean"></div>
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-lg-7" data-aos="fade-right" data-aos-delay="200">
+              <div class="hero-content">
+                <h1 class="display-4 fw-bold mb-4">Nourishing Communities, <br>Building Hope</h1>
+                <p class="lead mb-5">We provide essential groceries to families in need, creating a community where everyone has access to nutritious food for a healthier tomorrow.</p>
+                <div class="hero-buttons">
+                  <a href="#services" class="btn btn-primary btn-lg me-3">Get Food</a>
+                  <a href="#donate" class="btn btn-outline-secondary btn-lg">Donate Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5" data-aos="fade-left" data-aos-delay="400">
+              <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1594708767771-a7502209ff51" class="img-fluid rounded-5" alt="Groceries basket with grains and vegetables">
+                <div class="image-badge">
+                  <p class="m-0 fw-semibold">Food Bank</p>
+                  <small>Serving Daily</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- About Section -->
+      <section id="about" class="section-padding">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-2" data-aos="fade-left">
+              <h2 class="section-title">Who We Are</h2>
+              <p class="section-subtitle">Neighbors Helping Neighbors</p>
+              <p>GrainGood Food Bank is a nonprofit organization dedicated to ending hunger in our community. We collect, store, and distribute essential food items to people who face food insecurity.</p>
+              <p>Since 2010, we've provided over 5 million meals to families, seniors, and individuals in need. Our mission is to ensure everyone has access to nutritious food.</p>
+              <div class="mt-4">
+                <a href="#volunteer" class="btn btn-outline-primary">Join Our Team</a>
+              </div>
+            </div>
+            <div class="col-md-6 order-md-1 mb-4 mb-md-0" data-aos="fade-right">
+              <div class="about-image-grid">
+                <div class="about-image rounded-4 shadow mb-4" style="background-image: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c')"></div>
+                <div class="about-image rounded-4 shadow" style="background-image: url('https://images.unsplash.com/photo-1576473353867-a02f118a1a0e')"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Services Section -->
+      <section id="services" class="section-padding bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">How We Help The Community</p>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-card">
+                <div class="service-icon">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2454/2454286.png" alt="Grocery icon">
+                </div>
+                <h3>Food Distribution</h3>
+                <p>Weekly grocery packages containing grains, beans, fresh produce, dairy, and protein sources for individuals and families.</p>
+              </div>
+            </div>
+            
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-card">
+                <div class="service-icon">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1996/1996055.png" alt="Nutrition icon">
+                </div>
+                <h3>Nutrition Education</h3>
+                <p>Workshops and resources on preparing healthy meals on a budget, maximizing nutritional value, and reducing food waste.</p>
+              </div>
+            </div>
+            
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-card">
+                <div class="service-icon">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" alt="Delivery icon">
+                </div>
+                <h3>Home Delivery</h3>
+                <p>Grocery delivery service for seniors, disabled individuals, and those without transportation to access our physical location.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#contact" class="btn btn-primary">Request Assistance</a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Volunteer Section -->
+      <section id="volunteer" class="section-padding">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+              <h2 class="section-title">Volunteer With Us</h2>
+              <p class="section-subtitle">Be Part of the Solution</p>
+              <p>Our volunteers are the heart of our operation. Join our team and help us sort donations, pack grocery bags, deliver food, or assist with administrative tasks.</p>
+              <p>No experience necessary—just bring your enthusiasm and compassion.</p>
+              
+              <div class="volunteer-stats mt-4">
+                <div class="row g-3">
+                  <div class="col-6">
+                    <div class="stat-card">
+                      <h3>5,000+</h3>
+                      <p>Volunteer Hours Monthly</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="stat-card">
+                      <h3>300+</h3>
+                      <p>Active Volunteers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mt-4">
+                <a href="#contact" class="btn btn-primary">Sign Up Today</a>
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+              <div class="volunteer-image-container">
+                <img src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8" class="img-fluid rounded-5" alt="Volunteers sorting food donations">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Donation Section -->
+      <section id="donate" class="section-padding bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Make a Difference</h2>
+            <p class="section-subtitle">Support Our Cause</p>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="donate-card h-100">
+                <h3>Donate Food</h3>
+                <p>We accept donations of non-perishable food items, especially:</p>
+                <ul class="donation-list">
+                  <li><span class="donation-icon">🌾</span> Rice and grains</li>
+                  <li><span class="donation-icon">🫘</span> Beans and legumes</li>
+                  <li><span class="donation-icon">🥫</span> Canned vegetables and fruits</li>
+                  <li><span class="donation-icon">🍯</span> Nut butters</li>
+                  <li><span class="donation-icon">🥣</span> Cereals and oats</li>
+                </ul>
+                
+                <div class="donation-locations mt-4">
+                  <h4>Drop-off Locations:</h4>
+                  <div class="location">
+                    <h5>Main Warehouse</h5>
+                    <p>123 Helping Hand Rd<br>Open Mon-Sat, 9am-5pm</p>
+                  </div>
+                  <div class="location">
+                    <h5>Community Center</h5>
+                    <p>456 Green Ave<br>Open Tue-Thu, 10am-7pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6" data-aos="fade-left">
+              <div class="donate-card h-100">
+                <h3>Donate Funds</h3>
+                <p>Financial contributions help us purchase fresh produce, dairy, and protein items to complement donated non-perishables.</p>
+                
+                <div class="donation-impact mt-3 mb-4">
+                  <h4>Your Impact:</h4>
+                  <div class="impact-item">
+                    <div class="amount">$25</div>
+                    <div class="description">Provides a week of groceries for one person</div>
+                  </div>
+                  <div class="impact-item">
+                    <div class="amount">$100</div>
+                    <div class="description">Feeds a family of four for one week</div>
+                  </div>
+                  <div class="impact-item">
+                    <div class="amount">$500</div>
+                    <div class="description">Supplies a month of fresh produce for our pantry</div>
+                  </div>
+                </div>
+                
+                <a href="#" class="btn btn-primary w-100">Donate Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Map & Contact Section -->
+      <section id="contact" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+              <h2 class="section-title">Find Us</h2>
+              <p class="section-subtitle">Visit Our Location</p>
+              
+              <div class="map-container rounded-4 overflow-hidden">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2195244660506!2d-73.98656748459473!3d40.758890979325946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258fecf664df5%3A0x33d224615548e8c8!2sRockefeller%20Center!5e0!3m2!1sen!2sus!4v1615853805261!5m2!1sen!2sus" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy"
+                  class="w-100 h-100"
+                ></iframe>
+              </div>
+            </div>
+            
+            <div class="col-lg-6" data-aos="fade-left">
+              <div class="contact-form-container">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get In Touch</p>
+                
+                <form id="contactForm">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected disabled>I'd like to...</option>
+                      <option>Request food assistance</option>
+                      <option>Volunteer my time</option>
+                      <option>Make a donation</option>
+                      <option>Ask a question</option>
+                    </select>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="footer-brand d-flex align-items-center">
+              <div class="logo-circle me-2">
+                <span>GG</span>
+              </div>
+              <span class="brand-text">GrainGood</span>
+            </div>
+            <p class="mt-3">Providing nutritious food to those in need since 2010. Together, we can end hunger in our community.</p>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          
+          <div class="col-md-2 col-6">
+            <h5>Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#volunteer">Volunteer</a></li>
+              <li><a href="#donate">Donate</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-md-3 col-6">
+            <h5>Services</h5>
+            <ul class="footer-links">
+              <li><a href="#">Food Distribution</a></li>
+              <li><a href="#">Nutrition Education</a></li>
+              <li><a href="#">Home Delivery</a></li>
+              <li><a href="#">Emergency Assistance</a></li>
+              <li><a href="#">Community Gardens</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-md-3">
+            <h5>Contact Info</h5>
+            <ul class="footer-contact">
+              <li><i class="bi bi-geo-alt"></i> 123 Helping Hand Rd, City, State</li>
+              <li><i class="bi bi-telephone"></i> (123) 456-7890</li>
+              <li><i class="bi bi-envelope"></i> info@graingood.org</li>
+              <li><i class="bi bi-clock"></i> Mon-Sat: 9am - 5pm</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="footer-bottom text-center mt-4 pt-4 border-top">
+          <p>&copy; 2023 GrainGood Food Bank. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap & JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
